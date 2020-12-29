@@ -24,6 +24,9 @@ struct MeetingView: View {
 			}
 			Circle()
 				.strokeBorder(lineWidth: 24, antialiased: true)
+			HStack {
+					Text("Speaker 1 of 3")
+			}
 		}
 	}
 }
