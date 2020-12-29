@@ -22,6 +22,8 @@ struct MeetingView: View {
 					Label("600", systemImage: "hourglass.tophalf.fill")
 				}
 			}
+			Circle()
+				.strokeBorder(lineWidth: 24, antialiased: true)
 		}
 	}
 }
